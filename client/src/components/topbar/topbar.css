@@ -1,0 +1,44 @@
+.top {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white; 
+    color: black; 
+    padding: 5px;
+    padding-bottom: 10px;
+    font-family: Arial, sans-serif; 
+  }
+  
+  .topList {
+    list-style: none;
+    padding: 10px;
+    margin-left: 20px;
+    display: flex;
+  }
+  
+  .topListItem {
+    margin-right: 20px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black; 
+  }
+  
+  .topImg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .topRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .topSearchIcon {
+    font-size: 20px;
+    color: black; 
+  }
+  

@@ -1,0 +1,77 @@
+/* write.css */
+
+.write {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 700px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+  }
+  
+  .writeImg {
+    width: 100%;
+    max-width: 300px; /* Adjust image size */
+    height: auto;
+    margin-bottom: 20px; /* Space between image and form */
+    object-fit: cover; /* Ensure image fills container */
+    border: 1px solid #eee; /* Optional image border */
+    border-radius: 5px; /* Optional rounded corners for image */
+  }
+  
+  .writeForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .writeFormGroup {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .writeIcon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #333; /* Adjust icon color */
+    margin-right: 10px; /* Spacing between icon and label */
+  }
+  
+  .writeInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none; /* Disable textarea resizing */
+  }
+  
+  .writeInput:focus {
+    outline: none;
+    border-color: #999; /* Highlight on focus */
+  }
+  
+  .writeText {
+    height: 150px; /* Adjust textarea height */
+  }
+  
+  .writeSubmit {
+    background-color: #3498db; /* Adjust button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .writeSubmit:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+  }
+  
